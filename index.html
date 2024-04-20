@@ -1,1 +1,29 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simples jogo em js</title>
+    <script src="script.js" defer></script>
+</head>
+<style>
+body{
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+canvas{
+    border: 1px solid white;
+    width: 100%;
+}
+*{
+    user-select: none;
+}
+</style>
+<body>
+    <h1>jogo dos blocos malignos</h1>
+    <p>Clique com o botão esquerdo ou direito do mouse na tela para mover seu player. Tente alcançar o destino sem ser pego pelos inimigos.</p>
+    <canvas id="mycanvas" width="640" height="320"></canvas>
+</body>
+</html>
